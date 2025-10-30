@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2869be;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+
+}
+input{
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+button
+{
+    background:#2869be;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    color: #ffffff;
+    
+}
+.condition
+{
+    display: flex;
+    gap: 5px;
+}
